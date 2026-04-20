@@ -9,12 +9,18 @@
 *.sln.docstates
 
 # Build results
-[Bb]in/
-[Oo]bj/
+## Build output
+# Ignore all bin/ and obj/ folders recursively
+bin/
+obj/
 **/bin/
 **/obj/
-obj/
-bin/
+*/bin/
+*/obj/
+
+# Common project-level build folders (explicit)
+LeetCodeProblems/bin/
+LeetCodeProblems/obj/
 
 # Visual Studio Code
 .vscode/
@@ -65,3 +71,25 @@ _ReSharper*/
 # Temporary files
 *.tmp
 *.temp
+
+# Rider
+.idea/
+
+# NuGet global packages folder (optional)
+.nuget/packages/
+
+# Lock files
+project.lock.json
+project.fragment.lock.json
+
+# Local user secrets and env
+.env
+local.settings.json
+
+# Ignore build/test output folders created by CI/build agents
+artifacts/
+TestResults/
+
+# Keep Git from tracking file mode changes on executable files
+# (uncomment if you have issues on WSL/Windows)
+# .gitattributes
