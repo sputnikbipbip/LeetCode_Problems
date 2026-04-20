@@ -1,0 +1,67 @@
+## Ignore Visual Studio temporary files, build results, and
+## common temporary files for .NET projects
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+obj/
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# JetBrains Rider local history
+.localhistory/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Resharper
+_ReSharper*/
+*__ReSharper*/
+*.DotSettings.user
+
+# Coverage and profiling
+*.coverage
+*.coveragexml
+*.psess
+*.vsp
+*.vspx
+
+# Generated files
+*.g.cs
+*.g.i.cs
+*.Designer.cs
+
+# DotCover
+*.dotCover
+
+# Temporary files
+*.tmp
+*.temp
