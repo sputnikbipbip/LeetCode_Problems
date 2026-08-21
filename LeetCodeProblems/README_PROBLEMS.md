@@ -3,7 +3,7 @@ Project structure for storing LeetCode exercises
 - `Problems/` : each problem in its own folder following the pattern `NNNN_Title` (e.g. `0067_AddBinary`).
 - `IProblem.cs` : interface all problems implement.
 - `ProblemRunner.cs` : discovers and runs problems via reflection.
-- `CSHARPANDDOTNET/` : C#/.NET learning notes (excluded from compilation).
+- `Notes/CSharpAndDotNet/` (repo root) : C#/.NET learning notes, kept outside the compiled project.
 
 Usage:
 
