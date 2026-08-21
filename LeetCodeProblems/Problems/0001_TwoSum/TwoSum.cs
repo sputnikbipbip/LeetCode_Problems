@@ -1,20 +1,20 @@
 using System;
 using System.Collections.Generic;
 
-public class Example_0001_TwoSum : IProblem
+public class TwoSum : IProblem
 {
-    public string Name => "Example_0001_TwoSum";
+    public string Name => "TwoSum";
 
     public void Run()
     {
         Console.WriteLine("Running Two Sum example...");
         int[] nums = { 2, 7, 11, 15 };
         int target = 9;
-        var res = TwoSum(nums, target);
+        var res = TwoSumFunc(nums, target);
         Console.WriteLine($"Result: [{res[0]}, {res[1]}]");
     }
 
-    private int[] TwoSum(int[] nums, int target)
+    private int[] TwoSumFunc(int[] nums, int target)
     {
         var dict = new Dictionary<int, int>();
         for (int i = 0; i < nums.Length; i++)
